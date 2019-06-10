@@ -1,2 +1,2 @@
-# autumn-ridge-design.github.io
-The Autumn Ridge Design website
+# waveid.github.io
+The waveid.com website
