@@ -1,0 +1,401 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0 none;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+}
+sup, sub {
+	font-size: .4em;
+}
+sup {
+	vertical-align: super;
+}
+sub {
+	vertical-align: sub;
+}
+strong {
+	font-weight: bold;
+}
+a {
+	color: red;
+}
+a img {
+	border: 0;
+}
+ul li {
+	margin-bottom: 15px;
+}
+.align-left {
+	float: left;
+	margin-right: 20px;
+}
+.align-left, .align-right {
+	margin-bottom: 20px;
+}
+.align-right {
+	float: right;
+	margin-left: 20px;
+}
+.clear-both {
+	clear: both;
+}
+.clear-right {
+	clear: right;
+}
+.clear-left {
+	clear: left;
+}
+.index a {
+	color: #fff;
+}
+a:hover {
+	color: #333;
+}
+#header-wrapper {
+	background-image: url(../images/header-top-nav-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-bottom: 3px;
+}
+#header {
+	width: 940px;
+	height: 111px;
+	margin: 0 auto;
+	position: relative;
+}
+#rfideas {
+	background: transparent url(../images/RFIDEASLogo.png) no-repeat center center;
+	overflow: hidden;
+	text-indent: -3000px;
+	display: -moz-inline-stack;
+	display: inline-block;
+ *display:inline;
+	zoom: 1;
+	vertical-align: middle;
+	width: 96px;
+	height: 27px;
+	margin-left: 500px;
+}
+#nav {
+	list-style: none;
+	margin-top: 13px;
+}
+#nav > li {
+	display: -moz-inline-stack;
+	display: inline-block;
+ 	*display:inline;
+	zoom: 1;
+	list-style: none;
+	width: 19%;
+	text-align:center;
+}
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+#flash-wrapper {
+	background: #fff url(../images/headerBG.png) repeat-x center bottom;
+	padding-bottom: 3px;
+}
+#topBar {
+	background-image: url(../images/navBarBG.png);
+	background-repeat: repeat-x;
+	width: 100%;
+}
+#SubPageContentBG {
+	background-image: url(../images/insidePageBG.gif);
+	background-position: center 0px;
+	background-repeat: repeat-x;
+	background-color: #caced2;
+	color: #FFF;
+	position: relative;
+	width: 100%;
+	clear: both;
+	padding-bottom: 50px;
+}
+#SubPageContent {
+	position: relative;
+	width: 940px;
+	clear: both;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	color: #000;
+	min-height: 480px;
+}
+#subPageLeftColumn {
+	width: 550px;
+	float: left;
+	position: relative;
+	margin-top: 20px;
+}
+#subPageLeftColumn.full {
+	width: 100%;
+}
+#subPageLeftColumn p {
+	padding-top: 10px;
+}
+#subPageLeftColumn ul {
+	padding-top: 10px;
+	padding-left: 25px;
+}
+#subPageRightColumn {
+	float: right;
+	width: 325px;
+	position: relative;
+	margin-top: 20px;/*padding-left: 25px;*/
+}
+#SubPageContent h2 {
+}
+#subPageBox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	width: 280px;
+	padding: 5px 0 5px 0;
+	background-color: #24282C;
+	list-style-type: none;
+}
+#subPageBox li {
+	border-bottom: #171A1C 1px solid;
+	border-top: #3B4147 1px solid;
+	padding: 10px 0 10px 20px;
+	list-style-type: none;
+	list-style-image: url('../images/listMarker.png');
+	list-style-position: inside;
+}
+#subPageBox p {
+	padding: 10px 0 10px 20px;
+}
+#subPageBox a {
+	color: #fff;
+}
+.slogan {
+	font-style: italic;
+	font-weight: lighter;
+}
+h2 {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+h3 {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+h4 {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 14px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.clear {
+	clear: both;
+	width: 100%;
+	height: 0px;
+}
+h2 span {
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#logo {
+	width: 269px;
+	height: 75px;
+	display: -moz-inline-stack;
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+	position: relative;
+	left: -60px;
+	vertical-align: middle;
+}
+#logo a {
+	width: 269px;
+	height: 75px;
+	display: block;
+	position: relative;
+	text-indent: -30000%;
+	overflow: hidden;
+	float: left;
+	background-image: url(../images/RFIDlogo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	clip: rect(auto,auto,auto,auto);
+}
+#flashImpact {
+	width: 940px;
+	height: 529px;
+	position: relative;
+	margin: 0 auto;
+}
+#pageBG {
+	background-image: url(../images/contentBG.png);
+	width: 100%;
+	position: relative;
+	min-height: 350px;
+}
+#content {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+.column {
+	float: left;
+	width: 32%;
+	position: relative;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.columnRight {
+	float: right;
+	position: relative;
+	width: 280px;
+}
+.columnLeft {
+	width: 600px;
+	margin-top: 70px;
+}
+.columnRight h2 {
+	padding-left: 10px;
+}
+#box {
+	background-image: url(../images/boxBody.png);
+	background-repeat: repeat-y;
+	width: 280px;
+	position: relative;
+	padding-right: 10px;
+	padding-left: 20px;
+	color: #fff;
+}
+#box h3 {
+	font-weight: bold;
+}
+#box p {
+	padding-bottom: .5em;
+}
+#top {
+	background-image: url(../images/boxTop.jpg);
+	position: relative;
+	width: 280px;
+	background-repeat: no-repeat;
+	background-position: 1px top;
+	padding-top: 2px;
+}
+#bottom {
+	height: 22px;
+	width: 280px;
+	background-image: url(../images/boxFooter.jpg);
+	background-position: 1px;
+}
+#footer {
+	background-image: url(../images/FooterBG.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	position: relative;
+	min-height: 53px;
+	padding-top: 20px;
+}
+#footerContent {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+#credits {
+	font-size: 9px;
+	color: #666;
+}
+#credits img {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+body {
+	background-color: #24282C;
+}
+body, td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+.center {
+	display: block;
+	/*text-align: center;*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+.socialMedia {
+	margin-top: 20px;
+}
+.socialMedia img {
+	padding: 0 20px;
+}
+.float-right {
+	float: right;
+}
+.press-subtext {
+	margin-left: 75px;
+	display: block;
+}
+/* WAVEID OFFICE
+----------------------------------*/
+.office-item {
+	background: #FFF;
+	padding: 20px;
+	margin-top: 3px;
+}
+.office-item h3 {
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.office-item h3 > span {
+	color: #808285;
+	font-size: 1.75em;
+	margin-right: 10px;
+}
+.office-item.first {
+	margin-top: 20px;
+}
+.office-item .display-img {
+	text-align: right;
+}
+.office-item p {
+	display: -moz-inline-stack;
+	display: inline-block;
+ *display:inline;
+	zoom: 1;
+	vertical-align: top;
+	width: 49%;
+}
+.office-item p.display-img {
+	margin-top: -45px;
+}
+/* VIDEO
+---------------------------------*/
+.video-thumb {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+ *display:inline;
+	margin-right: 10px;
+}
